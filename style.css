@@ -1,0 +1,632 @@
+html{
+    background-color: black;
+}
+
+body{
+    margin: 0;
+    font-family: 'Libre Franklin',sans-serif;
+}
+
+#cover-photo{
+    background-image: url("assets/electronic-devices-1.jpg");
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    background-color: hsla(0, 0%, 20%, 0.6);
+    box-shadow: 0px 3px 3px hsla(244, 100%, 70%, 0.5); 
+    width: 100%;
+    font-weight: 300;
+    padding: 5px;
+    z-index: 50;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+.textoverlay {
+    position: absolute;
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    border: 5px solid hsl(244, 100%, 70%, 0.5);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 150%;
+    width: 470px;
+    height: 300px;
+    padding: 20px;
+    line-height: normal;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textoverlay h1 {
+    font-weight: 200;
+}
+
+.textoverlay p {
+    font-weight: 400;
+}
+
+#logo{
+    display: none;
+}
+
+.title{
+    font-size: 400%;
+    font-weight: 200;
+    line-height: 20px;
+    margin-bottom: 2%;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+.discription{
+    font-size: 130%;
+    font-weight: 400;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+#products{
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-color: hsl(195, 70%, 60%);
+}
+
+#products div{
+    margin: 1em 70px;
+    display: inline-block;
+}
+
+#products img{
+    border-radius: 20px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid white;
+}
+
+#products div p{
+    font-size: 150%;
+    font-weight: 200;
+}
+
+#products div h6{
+    font-size: 200%;
+    margin-top: 30px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+#services{
+    background-color: hsl(177, 60%, 40%);
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#services .row .column img{
+    background-size: cover;
+    background-position: center;
+    border: 3px solid hsl(244, 100%, 70%, 0.5);
+    height: 300px;
+    border-radius: 20px;
+}
+
+#services .row .column p{
+    margin-top: 1em;
+    font-size: 130%;
+    font-weight: 100;
+    width: 500px;
+    word-spacing: 5px;
+}
+
+#services .row .column{
+    display: inline-block;
+    margin: 0 50px;
+}
+
+#services .row{
+    margin: 100px auto;
+}
+
+#aboutus{
+    background-color: hsl(120, 73%, 65%);
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#aboutus img{
+    margin-top: 40px;
+    border-radius: 10px;
+    height: 260px;
+    border: 3px solid white;
+    display: inline-block;
+    margin: 4em;
+}
+
+#aboutus article{
+    width: 700px;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 130%;
+}
+
+#contactus{
+    height: auto;
+    background-color: hsl(9, 100%, 70%);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#contactus #contact{
+    background-color: hsl(241, 57%, 64%);
+    width: 700px;
+    height: auto;
+    padding: 3em 1em;
+    margin: 3em auto;
+}
+
+#contactus #contact input{
+    padding: 5px;
+    width: 80%;
+    margin: 0.5em auto;
+}
+
+#contactus #contact textarea{
+    padding: 5px;
+    width: 80%;
+    margin: 0.5em auto;
+}
+
+#contactus #contact button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 0.5em auto;
+    width: 80%;
+    border: none;
+    font-size: 110%;
+    cursor: pointer;
+}
+
+#contactus #info div{
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+#contactus #info{
+    font-weight: 200;
+    background-color: hsl(300, 100%, 30%);
+    padding: 3em 1em;
+    width: 700px;
+    height: auto;
+    margin: 5em auto;
+    text-align: center;
+    display: flex;
+}
+
+#info #box2 td{
+    padding: 0.3em 0.1em;
+    text-align: left;
+    width: 60%;
+}
+
+#info #box2 table{
+    margin: 0 auto;
+}
+
+#map{
+    overflow:hidden;
+    height:500px;
+    width:700px;
+    margin:0 auto;
+}
+
+#map #gmap_canvas{
+    height:50em;
+    width:70em;
+}
+
+#contactus div a img{
+    height: 40px;
+    margin-right: 20px;
+}
+
+#copyright{
+    font-style: italic;
+    font-size: 70%;
+    color: white;
+}
+
+@keyframes hvr-wobble-horizontal {
+    16.65% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+    33.3% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+    49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+    83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.hvr-wobble-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
+    color: hsl(244, 100%, 85%);
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-top: 3px solid hsl(244, 100%, 70%, 0.5);
+    border-right: 3px solid hsl(244, 100%, 70%, 0.5);
+    border-bottom: 3px solid hsl(244, 100%, 70%, 0.5);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+    font-size: 200%;
+    width: 60%;
+    transition: all 0.2s;
+}
+
+.icon-bar a:hover {
+    width: 150%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.facebook {
+    background: hsl(221, 44%, 40%);
+    color: white;
+}
+
+.twitter {
+    background: hsl(206, 82%, 60%);
+    color: white;
+}
+
+.instagram {
+    background: hsl(315, 71%, 50%);
+    color: white;
+}
+
+.pinterest {
+    background: #C92228;
+    color: white;
+}
+
+.youtube {
+    background: hsl(0, 100%, 50%);
+    color: white;
+}
+
+.snapchat {
+    background: hsl(60, 100%, 50%);
+    color: white;
+}
+
+.hvr-bounce-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+div #myNav, .overlay {
+    display: none;
+}
+
+body span{
+    display: none;
+    font-size:30px;
+    cursor:pointer;
+    color: white;
+    position: fixed;
+    width: 100%;
+    background-color: hsla(244, 100%, 70%, 0.9);
+    padding: 5px;
+    z-index: 49;
+}
+
+.overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+}
+
+.overlay {
+    height: 0%;
+    width: 100vw;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: hsl(244, 100%, 70%);
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 360px) {
+
+    div #myNav, .overlay {
+        display: block;
+    }
+
+    body span {
+        display: block;
+    }
+
+    body nav{
+        display: none;
+    }
+
+    .textoverlay{
+        display: none;
+    }
+
+    .title {
+        font-size: 130%;
+    }
+
+    .discription {
+        font-size: 100%;
+    }
+
+    #services{
+        background-color: hsl(177, 60%, 40%);
+        height: auto;
+        color: white;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    #services .row .column img{
+        background-size: cover;
+        background-position: center;
+        border: 3px solid hsl(244, 100%, 70%, 0.5);
+        width: 80%;
+        border-radius: 20px;
+    }
+    
+    #services .row .column p{
+        margin-top: 1em;
+        font-size: 100%;
+        font-weight: 100;
+        width: 80%;
+        word-spacing: 5px;
+    }
+    
+    #services .row .column{
+        display: block;
+        margin: 0 50px;
+    }
+    
+    #services .row{
+        margin: 100px auto;
+    }
+
+} 
+
+@media screen and (max-width: 658px) {
+
+    div #myNav, .overlay {
+        display: block;
+    }
+
+    body span {
+        display: block;
+    }
+
+    body nav{
+        display: none;
+    }
+
+    .textoverlay{
+        display: none;
+    }
+
+    #logo{
+        display: block;
+        width: 300px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .title {
+        font-size: 190%;
+    }
+
+    .discription {
+        font-size: 120%;
+    }
+
+    #services{
+        background-color: hsl(177, 60%, 40%);
+        height: auto;
+        color: white;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    #services .row .column img{
+        background-size: cover;
+        background-position: center;
+        border: 3px solid hsl(244, 100%, 70%, 0.5);
+        height: 300px;
+        border-radius: 20px;
+    }
+    
+    #services .row .column p{
+        margin-top: 1em;
+        font-size: 130%;
+        font-weight: 100;
+        width: 500px;
+        word-spacing: 5px;
+    }
+    
+    #services .row .column{
+        display: inline-block;
+        margin: 0 50px;
+    }
+    
+    #services .row{
+        margin: 100px auto;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    #products img{
+        width: 200px;
+    }
+
+    #products div{
+        margin: 30px 20px;
+        display: inline-block;
+    }
+
+    #aboutus article{
+        width: 80%;
+        margin: 0 auto;
+        font-weight: 300;
+        font-size: 130%;
+    }
+
+    #cover-photo{
+        height: 600px;
+    }
+
+    #contactus #contact{
+        width: 80%;
+    }
+
+    #contactus #info{
+        width: 80%;
+        display: block;
+        flex-wrap: nowrap;
+        padding: 0 auto;
+    }
+
+    #contactus #info div{
+        display: block;
+    }
+
+    #aboutus img{
+        height: 150px;
+        display: block;
+        margin: 2em auto;
+    }
+
+    #services .row .column{
+        display: block;
+        margin: 0 auto;
+    }
+
+    #services .row .column img{
+        height: 200px;
+    }
+    
+    #services .row .column p{
+        margin: 1em auto;
+        font-size: 100%;
+        font-weight: 100;
+        width: 80%;
+    }
+}
+
